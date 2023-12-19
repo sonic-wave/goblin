@@ -14,7 +14,5 @@ setInterval(() => {
   randomNum = Math.floor(Math.random() * numArray.length);
   temp = numArray[randomNum];
   numArray = numArray.filter((element) => element !== temp);
-  console.log(`temp: ${temp}`);
-  console.log(`numArray: ${randomNum}`);
   goblin[temp].appendChild(goblinImage);
 }, 1000);
