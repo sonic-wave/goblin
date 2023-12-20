@@ -19,3 +19,9 @@
     background-color: red;
     border: 1px solid black;    
 }
+
+.field-item-img {
+    background-image: url(../img/goblin.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
